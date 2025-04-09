@@ -1,0 +1,49 @@
+# Carpetas generadas por Unity (no se suben)
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+UserSettings/
+
+# Configuración personal de Unity
+sysinfo.txt
+.collabignore
+
+# Archivos de sistema
+.DS_Store
+*.swp
+*.tmp
+*.bak
+*.pid
+
+# Visual Studio / Rider / JetBrains
+.vscode/
+.idea/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.booproj
+*.svd
+
+# Plastic SCM
+PlasticSCM/
+
+# Archivos generados por Git LFS
+*.lfs
+
+# Builds móviles
+*.apk
+*.aab
+*.ipa
+
+# Crashlytics
+crashlytics-build.properties
+
+# Archivos ocultos
+*.DS_Store
