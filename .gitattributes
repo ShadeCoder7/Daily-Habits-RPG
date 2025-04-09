@@ -1,0 +1,11 @@
+_Art/**/*.png filter=lfs diff=lfs merge=lfs -text
+_Art/**/*.jpg filter=lfs diff=lfs merge=lfs -text
+_Art/**/*.jpeg filter=lfs diff=lfs merge=lfs -text
+_Art/**/*.psd filter=lfs diff=lfs merge=lfs -text
+_Art/**/*.tga filter=lfs diff=lfs merge=lfs -text
+_Art/**/*.gif filter=lfs diff=lfs merge=lfs -text
+_Audio/**/*.wav filter=lfs diff=lfs merge=lfs -text
+_Audio/**/*.mp3 filter=lfs diff=lfs merge=lfs -text
+_Audio/**/*.ogg filter=lfs diff=lfs merge=lfs -text
+_Art/**/*.fbx filter=lfs diff=lfs merge=lfs -text
+_Art/**/*.blend filter=lfs diff=lfs merge=lfs -text
