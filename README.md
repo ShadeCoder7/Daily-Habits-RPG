@@ -1,52 +1,52 @@
-# Daily-Habits-RPG 🎮✨
+# Simple-Touch-App 📱🎮
 
-Level up your life — one habit at a time!
+Tap, count, and reset — all while enjoying interactive feedback!
 
-Daily-Habits-RPG is a mobile app built with Unity and C# that turns your daily routines into an RPG adventure. Complete habits, earn experience, level up your character, and unlock achievements — all while building better habits in real life.
+Simple-Touch-App is a Unity-based mobile app built with C# that tracks the number of screen taps and provides interactive feedback like sound effects, vibration, and dynamic background color changes. It offers an engaging and simple way to keep track of your taps in a fun and rewarding manner.
 
 ---
 
 ## About the Project
 
-> "Small actions every day create great results."
+> "Every tap counts!"
 
-Daily-Habits-RPG was born with a simple idea: staying consistent with habits should feel fun, rewarding, and motivating — just like playing a game.
-
-This app helps users create, track, and complete daily habits with an RPG-inspired progression system. Each completed habit gives XP and helps your character evolve.
+Simple-Touch-App was created with the idea of making everyday screen taps more interactive and rewarding. The app tracks the number of taps, plays sound effects, changes background colors randomly, and even stores user progress locally. It’s a simple yet engaging app, designed to be intuitive and fun.
 
 ---
 
 ## Core Features 🚀
 
-### 🧩 Habit Management
-- Create, edit and delete habits easily.
-- Mark habits as completed each day.
+### 🖱 Tap Tracking
+- Tracks the number of taps on the screen, either from mobile touch or mouse input.
+- Displays the tap count in a formatted way (e.g., `00`, `01`, `02`, etc.).
+  
+### 🎵 Audio Feedback
+- Plays a sound effect every time a tap is registered.
 
-### 🧙 RPG Progression System
-- Earn XP for completing habits.
-- Level up and progress your personal character.
-- Visual feedback with progress bars and simple animations.
-
-### 📈 Track Your Progress
-- View your stats and growth over time.
-- See your daily and total completions.
+### 🔄 Background Color Changes
+- Every 10 taps, the background color changes randomly for visual variety.
 
 ### 💾 Data Persistence
-- Local save system using PlayerPrefs or a custom save solution.
+- Saves tap count and background color state using Unity's `PlayerPrefs`, ensuring progress is retained across sessions.
+- Resets progress and background color when requested by the user.
+
+### 📱 Mobile Vibration
+- Provides tactile feedback via device vibration upon each tap.
+
+### ⏪ Reset Functionality
+- Includes a button to reset the tap count and background to its default state.
 
 ---
 
 ## Future Ideas & Improvements ✨
 
-This is just the beginning! Some features we may explore in the future:
+Some features to be added in the future:
 
-- Daily notifications & reminders.
-- Avatar customization and skins.
-- Achievements, badges, and unlockables.
-- Data export (CSV, PDF).
-- Stats dashboard & analytics.
-- Sound effects & better animations.
-- Cloud saves & multi-device support.
+- Customizable sound effects.
+- Tapping challenges with rewards or progress bars.
+- Stats tracking for overall tap count and frequency.
+- Integration with cloud save for multi-device tracking.
+- More visual effects or animations for every 10 taps.
 
 ---
 
@@ -54,36 +54,27 @@ This is just the beginning! Some features we may explore in the future:
 
 ### Requirements
 - Unity 2022.x or higher.
-- Git LFS installed (Large File Storage) for managing large assets.
+- A mobile device or Unity Editor to test the project.
 
 ### Clone the Repository
 
 ```bash
-git clone git@github.com:ShadeCoder7/Daily-Habits-RPG.git  
-cd Daily-Habits-RPG
-```  
+git clone git@github.com:ShadeCoder7/Simple-Touch-App.git
+cd Simple-Touch-App
+```
 
-### Initialize Git LFS
-
-``` bash
-git lfs install 
-``` 
-
----
-
-## Running the Project 🕹️
+### Open the Project in Unity
 
 1. Open Unity Hub.
-2. Add the project folder.
+2. Add the project folder to Unity Hub.
 3. Open the project in Unity.
-4. Press Play to test and explore!
+4. Press Play to test the app and interact with it!
 
 ---
 
 ## Contributing 🤝
 
-Ideas, feedback, or bugs? Feel free to open an issue or submit a pull request!  
-Let’s build something awesome together.
+If you have any ideas, feedback, or have found a bug, feel free to open an issue or submit a pull request! Let's make this app even better together.
 
 ---
 
